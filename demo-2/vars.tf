@@ -12,4 +12,6 @@ variable "AMIS" {
     
   }
 }
-
+variable "PATH_TO_PRIVATE_KEY" {
+  default = "mykey"
+}
